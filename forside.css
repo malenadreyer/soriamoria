@@ -1,0 +1,40 @@
+body {
+  background-color: #f2efe9;
+}
+#hero_flex {
+  display: box;
+  box-align: center;
+  align-items: center;
+  box-pack: center;
+  justify-content: center;
+}
+
+#hero_img {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#hero_flex_text {
+  position: absolute;
+  font-size: 42px;
+  left: 7%;
+  width: 100rem;
+  bottom: 10%;
+}
+
+.hero_text {
+  color: #f2efe9;
+}
+
+#hero_button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #a6a053;
+  border-radius: 15%;
+}

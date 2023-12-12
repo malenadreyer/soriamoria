@@ -1,0 +1,148 @@
+h1 {
+  font-family: "Averia Serif Libre";
+}
+h4 {
+  font-family: "Averia Serif Libre";
+}
+p {
+  font-family: "Averia Serif Libre";
+}
+footer {
+  font-family: "Nunito";
+}
+@media screen and (min-width: 800px) {
+  #grid1 {
+    margin-left: 130px;
+    margin-top: 50px;
+    position: sticky;
+  }
+  #grid1_1 {
+    display: grid;
+    grid-template-columns: 3.5fr 2.9fr;
+  }
+  #grid2 {
+    background-color: #9e9977;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 10px;
+
+    color: #402718;
+  }
+  #grid3 {
+    background-color: #9e9977;
+    border-radius: 30px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: left;
+    align-items: baseline;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #402718;
+  }
+  #grid3 span {
+    margin-left: 40px;
+    font-weight: bold;
+    align-items: flex-end;
+  }
+  #grid3 p {
+    padding-top: 30px;
+  }
+  #grid4 {
+    margin-top: 50px;
+    background-color: #9e9977;
+    border-radius: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #402718;
+  }
+  #grid6 {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #bfaa8f;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid7 {
+    display: grid;
+    align-items: center;
+    justify-content: end;
+  }
+}
+@media screen and (max-width: 800px) {
+  #grid2 {
+    background-color: #9e9977;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    padding: 10px;
+
+    color: #402718;
+  }
+  #grid3 {
+    background-color: #9e9977;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    margin-top: 40px;
+    padding-left: 30px;
+    color: #402718;
+  }
+  #grid3 span {
+    margin-left: 40px;
+    font-weight: bold;
+    align-items: flex-end;
+  }
+  #grid3 p {
+    padding-top: 20px;
+  }
+  #grid4 {
+    margin-top: 50px;
+    background-color: #9e9977;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+    color: #402718;
+  }
+  #grid6 {
+    margin-top: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #bfaa8f;
+    font-family: "Nunito";
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid7 {
+    display: grid;
+    align-items: center;
+    justify-content: end;
+  }
+}

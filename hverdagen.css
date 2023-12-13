@@ -1,5 +1,6 @@
-body {
-  background-color: #f2efe9;
+main {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 img {
@@ -70,6 +71,6 @@ h4 {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
   }
 }

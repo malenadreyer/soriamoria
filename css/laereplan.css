@@ -64,10 +64,11 @@ h4 {
   font-family: "Averia Serif Libre", serif;
   margin-left: 1.5rem;
 }
+
 .button {
   color: #f2efe9;
   padding: 20px 45px;
-  font-size: 32px;
+  font-size: 17px;
   background-color: #a6a053;
   text-decoration: none;
   border-radius: 35rem;

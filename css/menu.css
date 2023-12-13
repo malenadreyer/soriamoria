@@ -93,6 +93,27 @@ nav {
 .burger {
   display: none;
 }
+@media screen and (min-width: 800px) {
+  #grid6 {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #bfaa8f;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid7 {
+    display: grid;
+    align-items: center;
+    justify-content: end;
+  }
+}
 @media screen and (max-width: 800px) {
   header {
     display: flex;
@@ -152,5 +173,23 @@ nav {
   }
   nav.active .menu a {
     font-size: 24px;
+  }
+  #grid6 {
+    margin-top: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #bfaa8f;
+    font-family: "Nunito";
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid7 {
+    display: grid;
+    align-items: center;
+    justify-content: end;
   }
 }

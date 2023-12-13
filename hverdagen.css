@@ -10,6 +10,7 @@ img {
   margin-left: 1.5rem;
   margin-top: 0rem;
   padding-right: 1rem;
+  border-radius: 10px;
 }
 
 footer {
@@ -44,6 +45,7 @@ h4 {
   color: #402718;
   font-family: "Averia Serif Libre", serif;
   margin-left: 1.5rem;
+  margin-top: 3rem;
 }
 
 @media screen and (max-width: 800px) {

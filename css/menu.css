@@ -120,6 +120,7 @@ nav {
     display: grid;
     align-items: center;
     justify-content: end;
+    padding: 20px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -199,5 +200,6 @@ nav {
     display: grid;
     align-items: center;
     justify-content: end;
+    padding-left: 20px;
   }
 }

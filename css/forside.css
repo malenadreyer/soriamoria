@@ -5,6 +5,42 @@ html {
   padding: 0;
   background: #f2efe9;
 }
+/* forsøg */
+body {
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h1 {
+  padding: 1em;
+}
+
+#content {
+  padding: 10px;
+  background-color: #eee;
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+}
+
+#content > .group {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+  background-color: #ddd;
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 600px;
+}
+
+#content > .group .item {
+  margin: 10px;
+  padding: 10px;
+  background-color: #aaa;
+  width: 200px;
+}
+/* forsøg */
 .hero_image {
   position: relative;
   height: 1225px;
@@ -37,7 +73,7 @@ html {
 .button {
   color: #f2efe9;
   padding: 20px 45px;
-  font-size: 44px;
+  font-size: 32px;
   background-color: #a6a053;
   text-decoration: none;
   border-radius: 35rem;
@@ -87,7 +123,7 @@ html {
   width: 83%;
 }
 .flexbox {
-  margin: 70px 140px;
+  margin: 70px 10px;
 }
 img {
   border-radius: 10%;

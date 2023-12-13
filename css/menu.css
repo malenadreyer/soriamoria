@@ -21,7 +21,7 @@ header {
   letter-spacing: 3px;
 }
 .knap:hover {
-  color: #000000;
+  color: #64281b;
 }
 .logo img {
   width: 50px;
@@ -68,7 +68,7 @@ nav {
 }
 
 .menu a:hover {
-  color: black;
+  color: #64281b;
 }
 
 .menu li .current {

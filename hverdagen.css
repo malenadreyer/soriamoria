@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f5ded2;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}

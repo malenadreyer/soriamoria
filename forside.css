@@ -26,13 +26,15 @@ html {
   font-size: 50px;
   letter-spacing: 0.2rem;
   margin: 0%;
+  font-family: "Averia Serif Libre", serif;
 }
 .container h2 {
   font-size: 45px;
   margin-left: 0px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 55px;
   display: block;
+  font-family: "Averia Serif Libre", serif;
 }
 .button {
   color: #f2efe9;
@@ -42,6 +44,7 @@ html {
   text-decoration: none;
   border-radius: 35rem;
   transition: 0.3s all;
+  font-family: "Averia Serif Libre", serif;
 }
 .button:hover {
   opacity: 0.8;
@@ -63,7 +66,7 @@ html {
     grid-template-columns: 1fr 1fr;
     width: 100%;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
   }
   .section_grid_1-1 {
     display: grid;
@@ -78,27 +81,66 @@ html {
   .order {
     order: 2;
   }
-
   .dl_grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (max-width: 800px) {
+  .section_grid_2-1 {
+    margin: 50px 0;
+  }
+  .section_grid_1-1 {
+    margin: 50px 0;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    position: absolute;
+    transform: translate(-25%, -50%);
+    color: #f2efe9;
+    font-weight: 500;
+    text-align: center;
+  }
+  .container h1 {
+    font-size: 50px;
+    letter-spacing: 0.2rem;
+    margin: 0%;
+  }
+  .container h2 {
+    font-size: 45px;
+    margin-bottom: 55px;
+    display: block;
+  }
+  .button {
+    color: #f2efe9;
+    font-size: 32px;
+    background-color: #a6a053;
+    text-decoration: none;
+    border-radius: 35rem;
+    transition: 0.3s all;
+  }
+  .button:hover {
+    opacity: 0.8;
+  }
+}
 .col h2 {
-  font-size: 34px;
+  font-size: 30px;
   color: #402718;
   margin-top: 0;
   width: 100%;
+  font-family: "Averia Serif Libre", serif;
 }
 .col p {
-  font-size: 28px;
+  font-size: 20px;
   color: #402718;
   width: 100%;
+  font-family: "Nunito", sans-serif;
 }
 .flexbox {
   margin: 70px 10px;
 }
 img {
   border-radius: 10%;
-  width: 100%;
+  width: 85%;
 }

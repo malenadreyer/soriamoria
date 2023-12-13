@@ -64,6 +64,19 @@ h4 {
   font-family: "Averia Serif Libre", serif;
   margin-left: 1.5rem;
 }
+.button {
+  color: #f2efe9;
+  padding: 20px 45px;
+  font-size: 32px;
+  background-color: #a6a053;
+  text-decoration: none;
+  border-radius: 35rem;
+  transition: 0.3s all;
+  font-family: "Averia Serif Libre", serif;
+}
+.button:hover {
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 800px) {
   .grid_1-1,

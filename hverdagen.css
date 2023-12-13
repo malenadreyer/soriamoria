@@ -1,19 +1,22 @@
-* {
-  box-sizing: border-box;
-}
 body {
-  max-width: 1200px;
-  margin: 0 auto;
   background-color: #f2efe9;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 50px;
+  position: sticky;
 }
 
 img {
-  width: 90%;
+  width: 100%;
   height: auto;
   display: block;
   margin-left: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
   padding-right: 1rem;
+}
+
+footer {
+  font-family: "Nunito";
 }
 
 p {
@@ -24,25 +27,25 @@ p {
 
 h1 {
   color: #402718;
-  font-family: "Mukta", sans-serif;
+  font-family: "Averia Serif Libre", serif;
   margin-left: 1.5rem;
 }
 
 h2 {
   color: #402718;
-  font-family: "Mukta", sans-serif;
+  font-family: "Averia Serif Libre", serif;
   margin-left: 1.5rem;
 }
 
 h3 {
   color: #402718;
-  font-family: "Mukta", sans-serif;
+  font-family: "Averia Serif Libre", serif;
   margin-left: 1.5rem;
 }
 
 h4 {
   color: #402718;
-  font-family: "Mukta", sans-serif;
+  font-family: "Averia Serif Libre", serif;
   margin-left: 1.5rem;
 }
 
@@ -71,5 +74,6 @@ h4 {
     display: grid;
     justify-content: center;
     align-items: center;
+    margin-top: 0.8rem;
   }
 }

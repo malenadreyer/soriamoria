@@ -1,6 +1,14 @@
 html {
   background-color: #f2efe9;
 }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 1.5rem;
+  margin-top: 0rem;
+  padding-right: 1rem;
+}
 
 header {
   display: flex;
@@ -21,7 +29,7 @@ header {
   letter-spacing: 3px;
 }
 .knap:hover {
-  color: #000000;
+  color: #64281b;
 }
 .logo img {
   width: 50px;
@@ -68,7 +76,7 @@ nav {
 }
 
 .menu a:hover {
-  color: black;
+  color: #64281b;
 }
 
 .menu li .current {
@@ -92,6 +100,27 @@ nav {
 }
 .burger {
   display: none;
+}
+@media screen and (min-width: 800px) {
+  #grid6 {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #bfaa8f;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid7 {
+    display: grid;
+    align-items: center;
+    justify-content: end;
+  }
 }
 @media screen and (max-width: 800px) {
   header {
@@ -152,5 +181,23 @@ nav {
   }
   nav.active .menu a {
     font-size: 24px;
+  }
+  #grid6 {
+    margin-top: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #bfaa8f;
+    font-family: "Nunito";
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid7 {
+    display: grid;
+    align-items: center;
+    justify-content: end;
   }
 }

@@ -104,8 +104,8 @@ nav {
 @media screen and (min-width: 800px) {
   #grid6 {
     margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 5%;
+    margin-left: 90px;
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -120,6 +120,7 @@ nav {
     display: grid;
     align-items: center;
     justify-content: end;
+    padding: 20px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -199,5 +200,6 @@ nav {
     display: grid;
     align-items: center;
     justify-content: end;
+    padding-left: 20px;
   }
 }

@@ -1,9 +1,6 @@
-body {
-  background-color: #f2efe9;
-  margin-left: 130px;
-  margin-right: 130px;
-  margin-top: 50px;
-  position: sticky;
+main {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 img {
@@ -13,6 +10,7 @@ img {
   margin-left: 1.5rem;
   margin-top: 0rem;
   padding-right: 1rem;
+  border-radius: 10px;
 }
 
 footer {
@@ -47,6 +45,7 @@ h4 {
   color: #402718;
   font-family: "Averia Serif Libre", serif;
   margin-left: 1.5rem;
+  margin-top: 3rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -74,6 +73,6 @@ h4 {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
   }
 }

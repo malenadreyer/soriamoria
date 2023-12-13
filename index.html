@@ -4,40 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="forside.css">
     <title>Forside</title>
 </head>
 
+
 <body>
-    <div id="hero_flex">
-        <img id="hero_img" src="imgs/header_hero.webp" alt="Billede af børnehavens have">
-        <div id="hero_flex_text">
-            <h1 class="hero_text">“Små eventyr vokser stort”</h1>
-            <p class="hero_text">SORIA MORIA</p>
-            <button id="hero_button">Mere om os</button>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="image_5.png" alt="Logo">
+            </a>
         </div>
-    </div>
-    <div>
-        <h2>Børnehaven</h2>
-        <p>I Soria Moria møder vi børnene med varme, omsorg og en høj pædagogisk faglighed.
-            Børnehaven er tilknyttet Waldorf Skolen i København og har til huse i en fløj i skolens bygning med egen
-            legeplads. Soria Moria har plads til 40 børn mellem 2 år og 10 mnd. og 5 år.</p>
-        <img src="imgs/header_hero copy.webp" alt="">
-    </div>
-    <div>
-        <h2>Rudolf Steiners filosofi</h2>
-        <p>I Soria Moria bygger pædagogikken på Rudolf Steiners filosofi, livsanskuelse og pædagogiske principper.
-            Børnehavens overordnede målsætning er at skabe et miljø omkring børnene, hvor det enkelte barn har mulighed
-            for at
-            trives og derved udvikle de egenskaber, som det ud fra sit inderste væsen, skal bruge for at finde sin egen
-            vej i livet.
-            Vores værdisæt er præget af fællesskab, ansvarstagen og hensyntagen til hinanden. Dette implementeres i det
-            daglige liv,
-            som er struktureret, trygt og præget af, at børnehaven drives af engageret og fagligt funderet pædagogisk
-            personale, som
-            kender, forstår og interesserer sig for det enkelte barn.</p>
-        <img id="img_2" src="imgs/index_pic1.jpeg" alt="">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="laereplan.html">Pædagoisk læreplan</a></li>
+                <li><a href="hverdagen.html">Hverdagen</a></li>
+                <li><a
+                        href="https://steinerskole.m.skoleintra.dk/Account/IdpLogin?role=Parent&partnerSp=urn%3Aitslearning%3Ansi%3Asaml%3A2.0%3Asteinerskole.skoleintra.dk">Forældreintra</a>
+                </li>
+                <li><a href="kontakt.html" data-page="home">Kontakt</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <script src="menu.js"></script>
+    </header>
+    <main>
+        <div class="hero_image">
+            <div class="container">
+                <h1><span>“Små eventyr vokser stort”</span></h1>
+                <h2>SORIA MORIA</h2>
+                <a class="button" href="#">Mere om os</a>
+            </div>
+        </div>
+        <div class="flexbox">
+            <section class="section_grid_2-1">
+                <div class="col order">
+                    <h2>Børnehaven</h2>
+                    <p>I Soria Moria møder vi børnene med varme, omsorg og en høj pædagogisk faglighed.
+                        Børnehaven er tilknyttet Waldorf Skolen i København og har til huse i en fløj i skolens bygning
+                        med
+                        egen
+                        legeplads. Soria Moria har plads til 40 børn mellem 2 år og 10 mnd. og 5 år.</p>
+                </div>
+                <img class="col" id="index_img1" src="imgs/header_hero copy.webp" alt="">
+
+            </section>
+            <section class="section_grid_1-1">
+                <div class="col">
+                    <h2>Rudolf Steiners filosofi</h2>
+                    <p>I Soria Moria bygger pædagogikken på Rudolf Steiners filosofi, livsanskuelse og pædagogiske
+                        principper.
+                        Børnehavens overordnede målsætning er at skabe et miljø omkring børnene, hvor det enkelte barn
+                        har
+                        mulighed
+                        for at
+                        trives og derved udvikle de egenskaber, som det ud fra sit inderste væsen, skal bruge for at
+                        finde
+                        sin
+                        egen
+                        vej i livet.
+                        Vores værdisæt er præget af fællesskab, ansvarstagen og hensyntagen til hinanden. Dette
+                        implementeres i
+                        det
+                        daglige liv,
+                        som er struktureret, trygt og præget af, at børnehaven drives af engageret og fagligt funderet
+                        pædagogisk
+                        personale, som
+                        kender, forstår og interesserer sig for det enkelte barn.</p>
+                </div>
+                <img class="col" id="index_img2" src="imgs/index_pic1.jpeg" alt="">
+            </section>
+    </main>
     </div>
 </body>
 

@@ -40,7 +40,7 @@ html {
   font-size: 44px;
   background-color: #a6a053;
   text-decoration: none;
-  border-radius: 9px;
+  border-radius: 35rem;
   transition: 0.3s all;
 }
 .button:hover {
@@ -50,27 +50,45 @@ html {
 @media (min-width: 800px) {
   /* Layout */
 
-  .col {
+  .section_grid_2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
+    justify-content: center;
   }
-  .flex_container {
-    display: flex;
-    flex-wrap: wrap;
+  .section_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
   }
-  .flex_container > div {
-    flex: 40%;
-    margin: 89px;
-    margin-bottom: 100px;
+  .col {
+    padding: 3% 5%;
+  }
+
+  .order {
+    order: 2;
+  }
+
+  .dl_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
-
 .col h2 {
   font-size: 34px;
+  color: #402718;
+  margin-top: 0;
+  width: 100%;
 }
 .col p {
   font-size: 28px;
-  width: 520px;
+  color: #402718;
+  width: 83%;
 }
-.col img {
-  border-radius: 10px;
+.flexbox {
+  margin: 70px 140px;
+}
+img {
+  border-radius: 10%;
 }

@@ -16,12 +16,6 @@ img {
   padding-right: 1rem;
 }
 
-@media (max-width: 700px) {
-  header {
-    display: none;
-  }
-}
-
 p {
   color: #402718;
   font-family: "Nunito", sans-serif;

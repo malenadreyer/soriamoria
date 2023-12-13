@@ -22,18 +22,3 @@ links.forEach((link) => {
     { src: "/icon-512.png", type: "image/png", sizes: "512x512" },
   ];
 }
-var currentPage = "home"; // Erstat med den aktuelle sideværdi
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Fjern "current" klassen fra alle menu punkter
-  var menuItems = document.querySelectorAll(".menu a");
-  menuItems.forEach(function (item) {
-    item.classList.remove("current");
-  });
-
-  // Tilføj "current" klassen til det aktuelle menupunkt
-  var currentMenuItem = document.querySelector(".menu a[data-page='" + currentPage + "']");
-  if (currentMenuItem) {
-    currentMenuItem.classList.add("current");
-  }
-});

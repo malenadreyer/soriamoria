@@ -86,6 +86,7 @@ footer {
     justify-content: end;
   }
 }
+
 @media screen and (max-width: 800px) {
   #grid2 {
     background-color: #9e9977;

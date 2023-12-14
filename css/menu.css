@@ -15,7 +15,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  position: relative;
+  position: static;
 }
 .logo {
   display: grid;
@@ -110,6 +110,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #bfaa8f;
+    font-family: "nunito";
   }
   #logo {
     display: flex;
